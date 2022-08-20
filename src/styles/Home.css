@@ -56,6 +56,11 @@
   font-size: 20px;
 }
 
+.socialIcon {
+  cursor: pointer;
+}
+
+
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;

@@ -8,12 +8,18 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2> Hi, My Name is Hritik</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <p>An aspiring software engineer with a passion for learning and creating.</p>
+          <a href="https://www.linkedin.com/in/hritik2002/" target={"_blank"}>
+            <LinkedInIcon className="socialIcon" />
+          </a>
+          <a href="mailto:sharmahritik2002@gmail.com" target={"_blank"}>
+            <EmailIcon className="socialIcon" />
+          </a>
+          <a href="https://www.github.com/hritik2002/" target={"_blank"}>
+            <GithubIcon className="socialIcon" />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -22,20 +28,17 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Redux, HTML, CSS, React Native, BootStrap, MaterialUI,
+              StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
-            </span>
+            <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>C, C++, JavaScript</span>
           </li>
         </ol>
       </div>
