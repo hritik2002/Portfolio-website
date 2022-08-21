@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -24,12 +25,18 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
-        <Link to="/experience"> Experience </Link>
-        <a href="https://drive.google.com/file/d/1iA5ni9-_rEGYZrIxnrhfq0vXCoeCmjQM/view?usp=sharing" target={"_blank"}>
-          Resume
-        </a>
+        <NavLink exact activeClassName="active" to="/">
+          Home{" "}
+        </NavLink>
+        <NavLink exact activeClassName="active" to="/projects">
+          Projects{" "}
+        </NavLink>
+        <NavLink exact activeClassName="active" to="/experience">
+          Experience{" "}
+        </NavLink>
+        <NavLink exact activeClassName="active" to="/achievements">
+          Achievements{" "}
+        </NavLink>
       </div>
     </div>
   );
