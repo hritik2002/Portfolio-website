@@ -72,8 +72,8 @@ function Experience() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Mumbai, India</h4>
           <p>
-            Created the <b>entire frontend</b> of the <b>MVP</b>(minimal viable
-            product) using next.js and redux.js.
+            Created the <b>entire frontend</b> of the <b>MVP</b> using next.js
+            and redux.js.
           </p>
           <p>
             Worked with the founder, where I was involved in the <b>design</b>{" "}

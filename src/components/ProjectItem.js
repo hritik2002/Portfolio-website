@@ -8,7 +8,7 @@ function ProjectItem({ image, name, id }) {
       key={id}
       className="projectItem"
       onClick={() => {
-        navigate("/project/" + id);
+        navigate("/projects/" + id);
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
