@@ -1,0 +1,64 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+
+.achievements {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.achievements li {
+  font-size: 28px;
+}
+
+.achievements h1 {
+  color: #3e497a;
+}
+
+.achievements a {
+  font-size: 30px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  color: inherit;
+}
+
+.achievements a:hover {
+  opacity: 0.7;
+}
+
+.achievements .list {
+  width: 60%;
+}
+
+.achievements .list li {
+  line-height: 36px;
+  margin: 4px auto;
+}
+
+.list span {
+  font-size: 18px;
+}
+
+.socialIcon {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .achievements {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .achievements h2 {
+    font-size: 30px;
+  }
+}
