@@ -62,3 +62,26 @@
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .achievements h1 {
+    font-size: 40px;
+  }
+
+  .achievements li {
+    font-size: 18px;
+    line-height: 12px;
+  }
+  .achievements .list {
+    width: 80%;
+    text-align: left;
+  }
+  .achievements .list li {
+    line-height: 30px;
+  }
+  .achievements .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+}
