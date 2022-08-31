@@ -29,7 +29,7 @@ export default function Achievements() {
       </ul>
      
       <a
-        href="https://drive.google.com/file/d/1iA5ni9-_rEGYZrIxnrhfq0vXCoeCmjQM/view"
+        href="https://drive.google.com/file/d/11kM5S_Az0lm7ykfvJGY0-RzvrQebgdTW/view?usp=sharing"
         target={"_blank"}
       >
         Resume here
