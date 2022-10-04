@@ -11,7 +11,7 @@ export default function Achievements() {
           contest 306, held on 14th august 2022.
         </li>
         <li>
-          Solved over <b>500+</b> DSA problems, overall on various platforms.
+          Solved over <b>500+</b> DSA problems,on Leetcode.
         </li>
         <li>
           Under top <b>2%</b> of people on stack overflow community with overall{" "}
@@ -29,7 +29,7 @@ export default function Achievements() {
       </ul>
      
       <a
-        href="https://drive.google.com/file/d/11kM5S_Az0lm7ykfvJGY0-RzvrQebgdTW/view?usp=sharing"
+        href="https://drive.google.com/file/d/1AJVd6qBCQCCcFXyWwgDaTIxnd040S1LK/view?usp=sharing"
         target={"_blank"}
       >
         Resume here
