@@ -3,14 +3,28 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import profile from "../profile.jpeg";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Hritik</h2>
+        <img
+          src={profile}
+          style={{
+            width: "200px",
+            height: "200px",
+            borderRadius: "100%",
+            marginBottom: 0,
+            lineHeight: 0,
+          }}
+        />
+        <h2 className="about_intro"> Hi, My Name is Hritik</h2>
         <div className="prompt">
-          <p>An aspiring software engineer with a passion for learning and creating.</p>
+          <p>
+            An aspiring software engineer with a passion for learning and
+            creating.
+          </p>
           <a href="https://www.linkedin.com/in/hritik2002/" target={"_blank"}>
             <LinkedInIcon className="socialIcon" />
           </a>
