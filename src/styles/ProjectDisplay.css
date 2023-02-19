@@ -1,6 +1,5 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,10 +17,21 @@
 }
 
 .project p {
-  font-size: 40px;
+  font-size: 2rem;
   color: #3e497a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+.projectDescription {
+  font-size: 1.3rem !important;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
 .project svg {
   font-size: 60px;
   color: #3e497a;

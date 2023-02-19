@@ -12,21 +12,27 @@ function ProjectDisplay() {
     <div className="project">
       <h1> {project.name}</h1>
       <img style={{ height: "55vh" }} src={project.image} />
-      <p>
-        <b>Skills:</b> {project.skills}
-      </p>
+      <p className="projectDescription">{project.description}</p>
+      <p>Skills: {project.skills}</p>
       <div>
-        <a
-          href={project.githubLink}
-          target={"_blank"}
-          style={{ marginRight: "14px" }}
-        >
-          <GitHubIcon />
-        </a>
-        {project.websiteLink && (
+        {project.githubLink ? (
+          <a
+            href={project.githubLink}
+            target={"_blank"}
+            style={{ marginRight: "14px" }}
+          >
+            <GitHubIcon />
+          </a>
+        ) : (
+          <></>
+        )}
+
+        {project.websiteLink ? (
           <a href={project.websiteLink} target="_blank">
             <WebAssetOutlined />
           </a>
+        ) : (
+          <></>
         )}
       </div>
     </div>

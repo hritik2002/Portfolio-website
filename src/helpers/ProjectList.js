@@ -7,6 +7,16 @@ import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
+    name: "Review Code",
+    image:
+      "https://user-images.githubusercontent.com/72138429/219942602-75b61d11-1b96-4ac6-a30a-8090f86e0b5c.png",
+    websiteLink: "",
+    skills: "Javascript, vscode",
+    description:
+      "VScode plugin that reviews our code and helps us improve with the naming convention and best practices, along with some tips on code improvements.",
+    githubLink: "",
+  },
+  {
     name: "Online platform to learn website developement",
     image:
       "https://raw.githubusercontent.com/hritik2002/Hackathon1_ALTF4/master/src/assets/page1.jpeg",
