@@ -10,11 +10,12 @@ export const ProjectList = [
     name: "Review Code",
     image:
       "https://user-images.githubusercontent.com/72138429/219942602-75b61d11-1b96-4ac6-a30a-8090f86e0b5c.png",
-    websiteLink: "",
     skills: "Javascript, vscode",
     description:
       "VScode plugin that reviews our code and helps us improve with the naming convention and best practices, along with some tips on code improvements.",
     githubLink: "",
+    websiteLink:
+      "https://marketplace.visualstudio.com/items?itemName=hritik2002.review-code",
   },
   {
     name: "Online platform to learn website developement",
