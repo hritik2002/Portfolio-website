@@ -10,7 +10,7 @@ import WorkIcon from '@material-ui/icons/Work'
 const experiences = [
   {
     timeline_title: 'Software Engineer - Physics Wallah',
-    timeline_work_date: `Apr 2023 - July 2023 (3 months)`,
+    timeline_work_date: `July 2023 - Present (3 months)`,
     timeline_title_link:
       'https://www.linkedin.com/company/physicswallah/mycompany/',
     timeline_subtitle: 'Onsite, Internship',
