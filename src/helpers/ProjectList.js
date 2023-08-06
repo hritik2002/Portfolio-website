@@ -31,7 +31,7 @@ export const ProjectList = [
   {
     name: 'Arjun AI',
     image:
-      'https://raw.githubusercontent.com/hritik2002/Hackathon1_ALTF4/master/src/assets/page1.jpeg',
+      'https://raw.githubusercontent.com/hritik2002/Portfolio-website/main/public/arjun-ai.png',
     websiteLink: 'https://arjun-ai.vercel.app/',
     skills: 'Javascript, NextJS, TailwindCSS',
     description:
