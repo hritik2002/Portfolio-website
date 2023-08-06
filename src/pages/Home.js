@@ -43,7 +43,7 @@ function Home() {
             <h2> Front-End</h2>
             <span>
               ReactJS, NextJS, ReduxJS, React Native, HTML, CSS, SCSS,
-              StyledComponents, , BootStrap, MaterialUI, TailwindCSS
+              StyledComponents, MaterialUI, TailwindCSS
             </span>
           </li>
           <li className="item">
