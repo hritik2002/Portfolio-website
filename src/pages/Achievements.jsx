@@ -1,5 +1,5 @@
-import React from "react";
-import "../styles/Achievements.css";
+import React from 'react'
+import '../styles/Achievements.css'
 
 export default function Achievements() {
   return (
@@ -14,7 +14,7 @@ export default function Achievements() {
           Solved over <b>500+</b> DSA problems,on Leetcode.
         </li>
         <li>
-          Under top <b>2%</b> of people on stack overflow community with overall{" "}
+          Under top <b>2%</b> of people on stack overflow community with overall{' '}
           <b>1.3k+ </b>
           reputation .
         </li>
@@ -27,13 +27,13 @@ export default function Achievements() {
           provided resources to learn web development.
         </li>
       </ul>
-     
+
       <a
-        href="https://drive.google.com/file/d/1AJVd6qBCQCCcFXyWwgDaTIxnd040S1LK/view?usp=sharing"
-        target={"_blank"}
+        href="https://drive.google.com/file/d/1jXr6Pdq8JmOPWAR3e6UuLwAMirmKALoU/view?usp=sharing"
+        target={'_blank'}
       >
         Resume here
       </a>
     </div>
-  );
+  )
 }
