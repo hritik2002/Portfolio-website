@@ -9,7 +9,7 @@ export const ProjectList = [
   {
     name: 'BhagavadGita.tech',
     image:
-      'https://user-images.githubusercontent.com/72138429/219942602-75b61d11-1b96-4ac6-a30a-8090f86e0b5c.png',
+      'https://raw.githubusercontent.com/hritik2002/Portfolio-website/main/public/bhagavad-gita.jpeg',
     skills:
       'ReactJS, TailwindCSS, Whatsapp-api, Javascript, NodeJS, OpenAI, Embeddings',
     description:
@@ -41,7 +41,7 @@ export const ProjectList = [
   {
     name: 'Persona AI',
     image:
-      'https://raw.githubusercontent.com/hritik2002/Hackathon1_ALTF4/master/src/assets/page1.jpeg',
+      'https://raw.githubusercontent.com/hritik2002/Portfolio-website/main/public/persona-ai-logo.png',
     websiteLink: 'https://ai-persona.vercel.app/',
     skills: 'Javascript, NextJS, TailwindCSS, Pinecone, Clerk',
     description:
